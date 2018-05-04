@@ -1,0 +1,27 @@
+/* WP Slick Slider */
+
+/* 33-34 */
+.wpsisac-slick-carousal button.slick-next, .wpsisac-slick-carousal button.slick-next:hover, .wpsisac-slick-carousal button.slick-next:focus{background:rgba(0,0,0,0.0) url(arrow-right.png) center center no-repeat !important; background-size:15px 26px !important; outline:none !important}
+.wpsisac-slick-carousal button.slick-prev, .wpsisac-slick-carousal button.slick-prev:hover, .wpsisac-slick-carousal button.slick-prev:focus{background:rgba(255,255,255,0.0) url(arrow-left.png) center center no-repeat !important; background-size:15px 26px !important;  outline:none !important}
+
+.wpsisac-slick-carousal .slick-dots{padding:0 !important; margin:0 !important; position:absolute;  text-align:center;} /* 35 */
+
+.wpsisac-slick-carousal .slick-dots li button{background:#ddd !important; margin:0px !important; padding:0px !important; border:1px solid #000; border-radius:50% !important; width:10px !important; height:10px !important;} /* 38 */
+
+.wpsisac-slick-carousal .slick-dots li.slick-active button{background:#907B43 !important;} /* 40 */
+
+.wpsisac-slick-carousal.design-6 .slick-next{right:117px !important;} /* 125 */
+.wpsisac-slick-carousal.design-6 .slick-prev{left:117px !important;} /* 126 */
+
+.wpsisac-slick-carousal.wpsisac-center .slick-slide .slick-image-slide-wrap { /* 132 */
+    opacity: 0.25;
+    transform: scale(0.7);
+    transition: all 300ms ease 0s;
+}
+
+.wpsisac-slick-carousal.wpsisac-center .slick-center .slick-image-slide-wrap { /* 137 */
+    opacity: 1;
+    transform: scale(1);
+}
+
+.wpsisac-slick-carousal.design-6 .slick-dots{left:15px !important; right:15px; text-align:center;  bottom:-47px !important;} /* 145 */
